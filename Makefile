@@ -1,6 +1,6 @@
 all:
 	-mkdir dist
-	tc --outDir dist --noImplicitAny `find src -name *.ts`
+	tsc --outDir dist --noImplicitAny `find src -name *.ts`
 	rsync -a --exclude "*~" --exclude ".*.sw?" --exclude "*.ts" src/ dist/
 
 clean:
