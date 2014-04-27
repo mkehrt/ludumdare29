@@ -5,7 +5,7 @@ var WORLD_WIDTH = 3000;
 var WORLD_HEIGHT = 3000;
 
 var RADIUS = 5
-var DELTA = 3
+var DELTA = 1
 
 var canvas: any = document.getElementById("canvas")
 var ctx = canvas.getContext("2d")
