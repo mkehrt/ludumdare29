@@ -1,4 +1,4 @@
-.PHONY: all clean deploy deploy-clean
+.PHONY: all clean deploy
 
 all:
 	-mkdir dist
