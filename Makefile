@@ -10,5 +10,6 @@ clean:
 	find . -name *~ | xargs rm -f
 
 deploy: all
+	ssh  mkehrt_roseandsigil@ssh.phx.nearlyfreespeech.net "mkdir /home/public/ludumdare29/; true"
 	scp -r dist/* mkehrt_roseandsigil@ssh.phx.nearlyfreespeech.net:/home/public/ludumdare29/
 
